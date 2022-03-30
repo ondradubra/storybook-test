@@ -1,0 +1,9 @@
+.FormControlLabel {
+  &.FormControlLabel--disabled > * {
+    color: var(--color-gray-variant3);
+  }
+
+  .FormControlLabel__label {
+    padding-bottom: 3px;
+  }
+}

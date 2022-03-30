@@ -1,0 +1,13 @@
+.Button.RemoveButton {
+  background: var(--color-error);
+  color: var(--color-error-contrastText);
+  &:hover {
+    background: var(--color-error-dark);
+  }
+  &.RemoveButton__disabled {
+    background: var(--color-error-light);
+    color: var(--color-error);
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}

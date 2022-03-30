@@ -1,0 +1,18 @@
+$block-half: 50%;
+
+$top-menubar-height: 80px;
+$top-menubar-height-small: 20px;
+$top-menubar-height-with-gradient: 86px;
+
+$left-aside-width: 245px;
+
+// Breakpoints values should be same as in JS variables (UILibrary/adapters/Customization/Theming/Breakpoints.ts)
+$screen-width-xs: 400px;
+$screen-width-sm: 600px;
+$screen-width-md: 900px;
+$screen-width-lg: 1200px;
+$screen-width-xl: 1536px;
+
+$screen-height-xs: 700px;
+
+$z-index-tooltip-base: 1101;

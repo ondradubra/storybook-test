@@ -1,0 +1,47 @@
+// WARNING:
+// From time to time there is need to create custom non-reusable content.
+// This is a temporary solution and is not meant to be abused.
+// We want to have size definitions coming from the design system so we can use those to
+// build layouts on components like <Block>.
+
+.Freestyle {
+  &.FinalStep {
+    &__description {
+      width: 100%;
+      max-width: 300px;
+      margin: 0px auto 40px auto;
+    }
+  }
+  &.StepConnect__button {
+    .TextBlock {
+      margin: 10px;
+    }
+  }
+  &.SurveyStep__button {
+    margin-top: 50px;
+    .Button {
+      min-width: 180px !important;
+    }
+  }
+  &.SkipStep {
+    &__noAccounts {
+      .TextBlock {
+        background: var(--color-gray-variant1);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+      }
+      .Block {
+        display: flex;
+        justify-content: center;
+        .Button {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

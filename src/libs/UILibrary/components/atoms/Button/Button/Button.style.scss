@@ -1,0 +1,27 @@
+.Button--tertiary {
+  background-color: var(--color-yellow-variant4) !important;
+  color: var(--color-text-primary) !important;
+  &:hover {
+    background-color: var(--color-yellow-variant1) !important;
+  }
+  &.Button--disabled {
+    background-color: var(--color-gray-variant2) !important;
+    color: var(--color-gray-variant3) !important;
+  }
+}
+
+.Button--secondary {
+  background-color: var(--color-common-white) !important;
+  color: var(--color-text-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+
+  &:hover {
+    border: 2px solid var(--color-primary-dark) !important;
+    background: var(--color-blue-variant1) !important;
+  }
+  &.Button--disabled {
+    background-color: var(--color-common-white) !important;
+    color: var(--color-gray-variant3) !important;
+    border: 2px solid var(--color-gray-variant3) !important;
+  }
+}

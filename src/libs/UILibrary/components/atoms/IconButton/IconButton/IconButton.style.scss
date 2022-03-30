@@ -1,0 +1,7 @@
+.IconButton--secondary {
+  background-color: var(--color-primary) !important;
+  color: var(--color-primary-contrastText) !important;
+  &:hover {
+    background-color: var(--color-primary-dark) !important;
+  }
+}

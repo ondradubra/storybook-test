@@ -1,0 +1,14 @@
+.TextBlock {
+  &.TextBlock--xs {
+    line-height: 15px !important;
+  }
+  &.TextBlock--sm {
+    line-height: 18px !important;
+  }
+  &.TextBlock--md {
+    line-height: 21px !important;
+  }
+  &.TextBlock--lg {
+    line-height: 24px !important;
+  }
+}

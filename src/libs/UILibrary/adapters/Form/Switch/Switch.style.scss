@@ -1,0 +1,47 @@
+.Switch {
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  .Switch {
+    &__base {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    &__thumb {
+      color: var(--color-gray-variant4);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    }
+
+    &__track {
+      background-color: var(--color-gray-variant3);
+      border-radius: 40px;
+      opacity: 1;
+    }
+
+    &--checked {
+      .Switch__thumb {
+        color: var(--color-success);
+      }
+
+      +.Switch__track {
+        background-color: var(--color-success-light);
+        opacity: 1;
+      }
+    }
+
+    &--disabled {
+      .Switch__thumb {
+        color: var(--color-gray-variant3);
+      }
+
+      +.Switch__track {
+        background-color: var(--color-gray-variant3);
+        opacity: 0.5;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.Alert {
+  .Alert__action {
+    padding-top: 8px;
+  }
+
+  &.Alert {
+    &--success {
+      background-color: var(--color-success);
+      color: var(--color-white-variant1);
+      .TextBlock,
+      .LabelTitle,
+      .IconButton--naked {
+        color: var(--color-white-variant1);
+      }
+      .LinkButton {
+        color: var(--color-white-variant1);
+        text-decoration-color: var(--color-white-variant1);
+        margin-right: 10px;
+      }
+      .Alert__icon {
+        color: var(--color-success-light);
+      }
+    }
+
+    &--info {
+      background-color: var(--color-info);
+      color: var(--color-white-variant1);
+      .TextBlock,
+      .LabelTitle,
+      .IconButton--naked {
+        color: var(--color-white-variant1);
+      }
+      .LinkButton {
+        color: var(--color-white-variant1);
+        text-decoration-color: var(--color-white-variant1);
+        margin-right: 10px;
+      }
+
+      .Alert__icon {
+        color: var(--color-info-light);
+      }
+    }
+
+    &--warning {
+      background-color: var(--color-warning);
+      color: var(--color-text-primary);
+      .TextBlock,
+      .LabelTitle {
+        color: var(--color-text-primary);
+      }
+      .LinkButton {
+        color: var(--color-text-primary);
+        text-decoration-color: var(--color-text-primary);
+        margin-right: 10px;
+      }
+
+      .Alert__icon {
+        color: var(--color-warning-light);
+      }
+    }
+
+    &--error {
+      background-color: var(--color-error);
+      color: var(--color-white-variant1);
+      .TextBlock,
+      .LabelTitle,
+      .IconButton--naked {
+        color: var(--color-white-variant1);
+      }
+      .LinkButton {
+        color: var(--color-white-variant1);
+        text-decoration-color: var(--color-white-variant1);
+        margin-right: 10px;
+      }
+
+      .Alert__icon {
+        color: var(--color-error-light);
+      }
+    }
+  }
+}

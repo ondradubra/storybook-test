@@ -1,0 +1,18 @@
+.RadioButton {
+  color: var(--color-gray-variant4);
+  padding: 6px 10px;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &.RadioButton {
+    &--checked {
+      color: var(--color-gray-variant4);
+    }
+
+    &--disabled {
+      color: var(--color-gray-variant3);
+    }
+  }
+}

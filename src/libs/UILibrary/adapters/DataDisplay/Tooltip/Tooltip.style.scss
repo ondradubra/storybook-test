@@ -1,0 +1,7 @@
+@use '../../../globals/styles/variables';
+
+.Tooltip__popper {
+  &--base {
+    z-index: variables.$z-index-tooltip-base !important;
+  }
+}

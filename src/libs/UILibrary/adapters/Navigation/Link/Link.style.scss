@@ -1,0 +1,15 @@
+.Link {
+  &--xs {
+    font-size: 10px !important;
+  }
+  &--sm {
+    font-size: 12px !important;
+  }
+  &--md {
+    font-size: 14px !important;
+  }
+  &--disabled {
+    pointer-events: none;
+    color: var(--color-gray-variant3) !important;
+  }
+}

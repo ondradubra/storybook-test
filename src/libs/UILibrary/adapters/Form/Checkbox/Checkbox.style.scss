@@ -1,0 +1,19 @@
+.Checkbox {
+  color: var(--color-gray-variant4);
+  padding: 8px 10px;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &.Checkbox {
+
+    &--checked {
+      color: var(--color-gray-variant4);
+    }
+
+    &--disabled {
+      color: var(--color-gray-variant3) !important;
+    }
+  }
+}

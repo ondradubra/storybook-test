@@ -1,0 +1,13 @@
+.LinkButton {
+  display: inline-flex;
+  .LinkButton__icon {
+    &--start {
+      margin-right: 8px;
+      margin-left: -4px;
+    }
+    &--end {
+      margin-right: -4px;
+      margin-left: 8px;
+    }
+  }
+}
